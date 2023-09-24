@@ -7,10 +7,10 @@ function App() {
 
   return (
     <>
-        <main className={"max-w-screen-sm bg-white mx-auto min-h-screen px-5 font-League-Spartan space-y-9 first:pt-[4.6rem]"}>
-            <div>
-                <h1 className={"text-very-dark-magenta text-[33px] font-bold leading-[1.6rem] text-center"}>10,000+ of our users love our products.</h1>
-                <p className={"pt-6 text-dark-grayish-magenta text-center leading-[1.38rem] text-[15px] font-medium"}>We only provide great products combined with excellent customer service.
+        <main className={"max-w-screen-sm bg-white mx-auto min-h-screen px-5 font-League-Spartan space-y-9 first:pt-[4.6rem] lg:grid lg:grid-cols-2 lg:max-w-screen-lg lg:px-[165px]"}>
+            <div className={"lg:my-auto lg:pr-20"}>
+                <h1 className={"text-very-dark-magenta text-[33px] font-bold leading-[1.6rem] text-center lg:text-[60px] lg:font-semibold lg:leading-[3rem] lg:text-left"}>10,000+ of our users love our products.</h1>
+                <p className={"pt-6 text-dark-grayish-magenta text-center leading-[1.38rem] text-[15px] font-medium lg:text-left lg:text-[20px]"}>We only provide great products combined with excellent customer service.
                     See what our satisfied customers are saying about our services.</p>
             </div>
 
@@ -49,7 +49,8 @@ function App() {
                 </div>
             </div>
 
-            <div className={"space-y-3"}>
+            <div className={"space-y-3 lg:col-span-full"}>
+
                 <div className={"bg-very-dark-magenta px-[1.7rem] py-8 space-y-5 rounded-lg"}>
                     <div className={"flex items-center space-x-5"}>
                         <div className={""}>
