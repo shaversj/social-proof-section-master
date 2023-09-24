@@ -5,8 +5,8 @@ import ireneProfile from "./assets/images/image-irene.jpg"
 function App() {
   return (
     <>
-      <main className={"bg-white mx-auto min-h-screen px-5 font-League-Spartan space-y-9 lg:grid lg:place-items-center"}>
-        <div className={"lg:grid lg:grid-cols-[44%,56%] lg:max-w-screen-lg lg:px-[165px] lg:space-y-0 lg:grid-rows-[auto,1fr]"}>
+      <main className={"bg-white min-h-screen font-League-Spartan grid place-items-center"}>
+        <div className={"max-w-screen-sm px-5 space-y-9 lg:grid lg:grid-cols-[44%,56%] lg:max-w-screen-lg lg:px-[165px] lg:space-y-0 lg:grid-rows-[auto,1fr]"}>
           <div className={"lg:flex lg:flex-col lg:justify-center lg:pr-12"}>
             <h1 className={"text-very-dark-magenta text-[33px] font-bold leading-[1.6rem] text-center lg:text-[53px] lg:font-bold lg:leading-[3rem] lg:text-left lg:tracking-tight"}>
               10,000+ of our users love our products.
