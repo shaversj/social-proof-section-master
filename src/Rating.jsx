@@ -1,6 +1,4 @@
-const Rating = ({ id, stars, rating, indent }) => {
-  let indentation = 48 * id
-
+const Rating = ({ id, stars, rating }) => {
   function ratingStars(numOfStars) {
     let stars = []
     for (let i = 0; i < numOfStars; i++) {
@@ -16,9 +14,10 @@ const Rating = ({ id, stars, rating, indent }) => {
 
     return <div className={"flex gap-x-2 justify-center"}>{stars}</div>
   }
+
   return (
     <div
-      className={`bg-light-grayish-magenta space-y-2 py-3 rounded-lg flex flex-col items-center lg:w-[443px] lg:h-[54px] lg:flex lg:flex-row lg:space-x-8 lg:pl-8 lg:space-y-0 lg:ml-[${indentation}px]`}
+      className={`bg-light-grayish-magenta space-y-2 py-3 rounded-lg flex flex-col items-center lg:w-[443px] lg:h-[54px] lg:flex lg:flex-row lg:space-x-8 lg:pl-8 lg:space-y-0 lg:ml-[${48 * id}px]`}
     >
       {ratingStars(stars)}
       <div className={""}>
