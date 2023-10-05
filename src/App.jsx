@@ -2,20 +2,22 @@ import coltonProfile from "./assets/images/image-colton.jpg"
 import anneProfile from "./assets/images/image-anne.jpg"
 import ireneProfile from "./assets/images/image-irene.jpg"
 import RatingsLayout from "./RatingsLayout.jsx"
+import Header from "./Header.jsx"
 
 function App() {
   return (
     <>
       <main className={"bg-white min-h-screen font-League-Spartan grid place-items-center"}>
         <div className={"max-w-screen-sm px-5 space-y-9 lg:grid lg:grid-cols-[44%,56%] lg:max-w-screen-lg lg:px-[165px] lg:space-y-0 lg:grid-rows-[auto,1fr]"}>
-          <div className={"lg:flex lg:flex-col lg:justify-center lg:pr-12"}>
-            <h1 className={"text-very-dark-magenta text-[33px] font-bold leading-[1.6rem] text-center lg:text-[55px] lg:font-bold lg:leading-[3rem] lg:text-left lg:tracking-tight"}>
-              10,000+ of our users love our products.
-            </h1>
-            <p className={"pt-6 text-dark-grayish-magenta text-center leading-[1.38rem] text-[15px] font-medium lg:text-left lg:text-[18px] lg:leading-6 lg:pt-7 lg:font-normal"}>
-              We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.
-            </p>
-          </div>
+          <Header />
+          {/*<div className={"lg:flex lg:flex-col lg:justify-center lg:pr-12"}>*/}
+          {/*  <h1 className={"text-very-dark-magenta text-[33px] font-bold leading-[1.6rem] text-center lg:text-[55px] lg:font-bold lg:leading-[3rem] lg:text-left lg:tracking-tight"}>*/}
+          {/*    10,000+ of our users love our products.*/}
+          {/*  </h1>*/}
+          {/*  <p className={"pt-6 text-dark-grayish-magenta text-center leading-[1.38rem] text-[15px] font-medium lg:text-left lg:text-[18px] lg:leading-6 lg:pt-7 lg:font-normal"}>*/}
+          {/*    We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.*/}
+          {/*  </p>*/}
+          {/*</div>*/}
 
           <RatingsLayout />
 
