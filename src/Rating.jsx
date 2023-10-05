@@ -15,10 +15,14 @@ const Rating = ({ id, stars, rating }) => {
     return <div className={"flex gap-x-2 justify-center"}>{stars}</div>
   }
 
+  let ratingPicker = {
+    0: "bg-light-grayish-magenta space-y-2 py-3 rounded-lg flex flex-col items-center lg:w-[443px] lg:h-[54px] lg:flex lg:flex-row lg:space-x-8 lg:pl-8 lg:space-y-0 lg:ml-[0px]",
+    1: "bg-light-grayish-magenta space-y-2 py-3 rounded-lg flex flex-col items-center lg:w-[443px] lg:h-[54px] lg:flex lg:flex-row lg:space-x-8 lg:pl-8 lg:space-y-0 lg:ml-[48px]",
+    2: "bg-light-grayish-magenta space-y-2 py-3 rounded-lg flex flex-col items-center lg:w-[443px] lg:h-[54px] lg:flex lg:flex-row lg:space-x-8 lg:pl-8 lg:space-y-0 lg:ml-[96px]"
+  }
+
   return (
-    <div
-      className={`bg-light-grayish-magenta space-y-2 py-3 rounded-lg flex flex-col items-center lg:w-[443px] lg:h-[54px] lg:flex lg:flex-row lg:space-x-8 lg:pl-8 lg:space-y-0 lg:ml-[${48 * id}px]`}
-    >
+    <div className={ratingPicker[id]}>
       {ratingStars(stars)}
       <div className={""}>
         <h2 className={"text-very-dark-magenta font-bold text-[15px] text-center lg:text-[17px] lg:leading-3"}>{rating}</h2>
