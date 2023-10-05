@@ -3,6 +3,7 @@ import anneProfile from "./assets/images/image-anne.jpg"
 import ireneProfile from "./assets/images/image-irene.jpg"
 import RatingsLayout from "./RatingsLayout.jsx"
 import Header from "./Header.jsx"
+import CardsLayout from "./CardsLayout.jsx"
 
 function App() {
   return (
@@ -136,55 +137,56 @@ function App() {
           {/*  </div>*/}
           {/*</div>*/}
 
-          <div className={"space-y-3 lg:col-span-full lg:flex lg:flex-row lg:space-y-0 lg:space-x-8 lg:relative lg:pt-[4.35rem]"}>
-            <div className={"bg-very-dark-magenta px-[1.7rem] py-8 space-y-5 rounded-lg lg:w-[350px] h-[233px] lg:px-[2rem] lg:py-9 lg:space-y-7"}>
-              <div className={"flex items-center space-x-5 lg:space-x-6"}>
-                <div className={""}>
-                  <img className={"rounded-full w-[36px] h-[36px] lg:w-[40px] lg:h-[40px]"} src={coltonProfile} alt={""} />
-                </div>
-                <div className={""}>
-                  <span className={"text-white text-sm font-semibold tracking-wider lg:text-[15.5px] lg:leading-none"}>Colton Smith</span>
-                  <span className={"text-soft-pink text-sm leading-[.7rem] block tracking-wider lg:text-[15.5px] lg:leading-none"}>Verified Buyer</span>
-                </div>
-              </div>
+          <CardsLayout />
+          {/*<div className={"space-y-3 lg:col-span-full lg:flex lg:flex-row lg:space-y-0 lg:space-x-8 lg:relative lg:pt-[4.35rem]"}>*/}
+          {/*  <div className={"bg-very-dark-magenta px-[1.7rem] py-8 space-y-5 rounded-lg lg:w-[350px] h-[233px] lg:px-[2rem] lg:py-9 lg:space-y-7 lg:relative"}>*/}
+          {/*    <div className={"flex items-center space-x-5 lg:space-x-6"}>*/}
+          {/*      <div className={""}>*/}
+          {/*        <img className={"rounded-full w-[36px] h-[36px] lg:w-[40px] lg:h-[40px]"} src={coltonProfile} alt={""} />*/}
+          {/*      </div>*/}
+          {/*      <div className={""}>*/}
+          {/*        <span className={"text-white text-sm font-semibold tracking-wider lg:text-[15.5px] lg:leading-none"}>Colton Smith</span>*/}
+          {/*        <span className={"text-soft-pink text-sm leading-[.7rem] block tracking-wider lg:text-[15.5px] lg:leading-none"}>Verified Buyer</span>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
 
-              <p className={"text-white text-[14.8px] font-thin leading-5 lg:text-[17.1px] lg:leading-[1.4rem]"}>
-                " We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent! "
-              </p>
-            </div>
+          {/*    <p className={"text-white text-[14.8px] font-thin leading-5 lg:text-[17.1px] lg:leading-[1.4rem]"}>*/}
+          {/*      " We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent! "*/}
+          {/*    </p>*/}
+          {/*  </div>*/}
 
-            <div className={"bg-very-dark-magenta px-[1.7rem] py-8 space-y-5 rounded-lg lg:w-[350px] lg:h-[233px] lg:relative lg:top-[16px] lg:px-[2rem] lg:py-9 lg:space-y-7"}>
-              <div className={"flex items-center space-x-5 lg:space-x-6"}>
-                <div className={""}>
-                  <img className={"rounded-full w-[36px] h-[36px] lg:w-[40px] lg:h-[40px]"} src={ireneProfile} alt={""} />
-                </div>
-                <div className={""}>
-                  <span className={"text-white text-sm font-semibold tracking-wider lg:text-[15.5px] lg:leading-none"}>Irene Roberts</span>
-                  <span className={"text-soft-pink text-sm leading-[.7rem] block tracking-wider lg:text-[15.5px] lg:leading-none"}>Verified Buyer</span>
-                </div>
-              </div>
+          {/*  <div className={"bg-very-dark-magenta px-[1.7rem] py-8 space-y-5 rounded-lg lg:w-[350px] lg:h-[233px] lg:relative lg:top-[16px] lg:px-[2rem] lg:py-9 lg:space-y-7"}>*/}
+          {/*    <div className={"flex items-center space-x-5 lg:space-x-6"}>*/}
+          {/*      <div className={""}>*/}
+          {/*        <img className={"rounded-full w-[36px] h-[36px] lg:w-[40px] lg:h-[40px]"} src={ireneProfile} alt={""} />*/}
+          {/*      </div>*/}
+          {/*      <div className={""}>*/}
+          {/*        <span className={"text-white text-sm font-semibold tracking-wider lg:text-[15.5px] lg:leading-none"}>Irene Roberts</span>*/}
+          {/*        <span className={"text-soft-pink text-sm leading-[.7rem] block tracking-wider lg:text-[15.5px] lg:leading-none"}>Verified Buyer</span>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
 
-              <p className={"text-white text-[14.8px] font-thin leading-5 lg:text-[17.1px] lg:leading-[1.4rem]"}>
-                " Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery. "
-              </p>
-            </div>
+          {/*    <p className={"text-white text-[14.8px] font-thin leading-5 lg:text-[17.1px] lg:leading-[1.4rem]"}>*/}
+          {/*      " Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery. "*/}
+          {/*    </p>*/}
+          {/*  </div>*/}
 
-            <div className={"bg-very-dark-magenta px-[1.7rem] py-8 space-y-5 rounded-lg lg:w-[350px] lg:h-[233px] lg:relative lg:top-[32px] lg:px-[2rem] lg:py-9 lg:space-y-7"}>
-              <div className={"flex items-center space-x-5 lg:space-x-6"}>
-                <div className={""}>
-                  <img className={"rounded-full w-[36px] h-[36px] lg:w-[40px] lg:h-[40px]"} src={anneProfile} alt={""} />
-                </div>
-                <div className={""}>
-                  <span className={"text-white text-sm font-semibold tracking-wider lg:text-[15.5px] lg:leading-none"}>Anne Wallace</span>
-                  <span className={"text-soft-pink text-sm leading-[.7rem] block tracking-wider lg:text-[15.5px] lg:leading-none"}>Verified Buyer</span>
-                </div>
-              </div>
+          {/*  <div className={"bg-very-dark-magenta px-[1.7rem] py-8 space-y-5 rounded-lg lg:w-[350px] lg:h-[233px] lg:relative lg:top-[32px] lg:px-[2rem] lg:py-9 lg:space-y-7"}>*/}
+          {/*    <div className={"flex items-center space-x-5 lg:space-x-6"}>*/}
+          {/*      <div className={""}>*/}
+          {/*        <img className={"rounded-full w-[36px] h-[36px] lg:w-[40px] lg:h-[40px]"} src={anneProfile} alt={""} />*/}
+          {/*      </div>*/}
+          {/*      <div className={""}>*/}
+          {/*        <span className={"text-white text-sm font-semibold tracking-wider lg:text-[15.5px] lg:leading-none"}>Anne Wallace</span>*/}
+          {/*        <span className={"text-soft-pink text-sm leading-[.7rem] block tracking-wider lg:text-[15.5px] lg:leading-none"}>Verified Buyer</span>*/}
+          {/*      </div>*/}
+          {/*    </div>*/}
 
-              <p className={"text-white text-[14.8px] font-thin leading-5 lg:text-[17.1px] lg:leading-[1.4rem]"}>
-                " Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone! "
-              </p>
-            </div>
-          </div>
+          {/*    <p className={"text-white text-[14.8px] font-thin leading-5 lg:text-[17.1px] lg:leading-[1.4rem]"}>*/}
+          {/*      " Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone! "*/}
+          {/*    </p>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
         </div>
       </main>
     </>

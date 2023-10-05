@@ -1,20 +1,23 @@
 [
   {
-    "id": 3,
+    "id": 0,
     "name": "Colton Smith",
-    "type": "Verified Buyer",
-    "review": "\" We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent! \""
+    "buyerType": "Verified Buyer",
+    "review": "We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!",
+    "profilePic": "/image-colton.jpg"
   },
   {
-    "id": 4,
+    "id": 1,
     "name": "Irene Roberts",
-    "type": "Verified Buyer",
-    "review": "\" Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery. \""
+    "buyerType": "Verified Buyer",
+    "review": "Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.",
+    "profilePic": "/image-irene.jpg"
   },
   {
-    "id": 5,
+    "id": 2,
     "name": "Anne Wallace",
-    "type": "Verified Buyer",
-    "review": "\" Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone! \""
+    "buyerType": "Verified Buyer",
+    "review": "Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!",
+    "profilePic": "/image-anne.jpg"
   }
 ]
