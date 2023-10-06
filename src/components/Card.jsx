@@ -1,10 +1,4 @@
 const Card = ({ id, name, buyerType, review, profile }) => {
-  let cardPicker = {
-    0: "bg-very-dark-magenta px-[1.7rem] py-8 space-y-5 rounded-lg lg:w-[21.875rem] h-[14.563rem] lg:px-[2rem] lg:py-9 lg:space-y-7 lg:relative lg:top-[0rem]",
-    1: "bg-very-dark-magenta px-[1.7rem] py-8 space-y-5 rounded-lg lg:w-[21.875rem] h-[14.563rem] lg:px-[2rem] lg:py-9 lg:space-y-7 lg:relative lg:top-[1rem]",
-    2: "bg-very-dark-magenta px-[1.7rem] py-8 space-y-5 rounded-lg lg:w-[21.875rem] h-[14.563rem] lg:px-[2rem] lg:py-9 lg:space-y-7 lg:relative lg:top-[2rem]"
-  }
-
   let parentCardClass = `bg-very-dark-magenta px-[1.7rem] py-8 space-y-5 rounded-lg lg:w-[21.875rem] h-[14.563rem] lg:px-[2rem] lg:py-9 lg:space-y-7 lg:relative lg:top-[${id}rem]`
 
   return (
