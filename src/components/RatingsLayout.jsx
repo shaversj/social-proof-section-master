@@ -1,4 +1,4 @@
-import ratingsData from "./ratingsData.json"
+import ratingsData from "../data/ratingsData.json"
 import Rating from "./Rating.jsx"
 const RatingsLayout = () => {
   return (

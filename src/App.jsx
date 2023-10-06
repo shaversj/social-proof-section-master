@@ -1,6 +1,6 @@
-import RatingsLayout from "./RatingsLayout.jsx"
-import Header from "./Header.jsx"
-import CardsLayout from "./CardsLayout.jsx"
+import RatingsLayout from "./components/RatingsLayout.jsx"
+import Header from "./components/Header.jsx"
+import CardsLayout from "./components/CardsLayout.jsx"
 function App() {
   return (
     <>

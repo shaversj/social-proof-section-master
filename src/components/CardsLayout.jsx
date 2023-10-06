@@ -1,4 +1,4 @@
-import cardData from "./cardData.json"
+import cardData from "../data/cardData.json"
 import Card from "./Card.jsx"
 
 const CardsLayout = () => {
